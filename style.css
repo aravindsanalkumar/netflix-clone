@@ -5,7 +5,7 @@ body{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 section{
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid rgb(102, 93, 93);
 }
 .hero{
     width: 100%;
@@ -29,8 +29,7 @@ section{
     position: absolute;
     top:30px;
     left:300px;
-    width:900px;
-    border: 1px solid red;;
+    width:990px;
     display: flex;
     justify-content: space-between;
 }
@@ -39,12 +38,10 @@ section{
 }
 .nav-flex{
     display: flex;
-    border:1px solid green;
     padding:10px;
     gap:30px;
 }
 .content{
-    border:5px solid yellow;
     text-align: center;
     width:840px;
     position: absolute;
@@ -53,46 +50,129 @@ section{
     transform: translate(-50%,-50%);
     color:white;
 }
-.container-1{
+.btn-en{
+    background-color: transparent;
     color:white;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    height: 700px;
+    font-size: 16px;
+    padding:5px 20px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    cursor: pointer;
 }
-.container-2{
+.btn-sign-in{
+    background-color: red;
+    color:white;
+    font-size: 16px;
+    padding:5px 20px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+.btn-sign-in:hover{
+    background-color: rgb(202, 39, 39);
+}
+
+.title{
+    font-size: 40px;
+}
+.sub-title{
+    font-size: 24px;
+}
+.desc{
+    font-size:20px;
+}
+.content-input{
+    padding: 15px 100px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgba(18, 17, 17, 0.233);
+    color:white;
+    font-size: 16px;
+    border:1px solid rgb(54, 50, 50);
+    margin-right: 5px;
+}
+
+.content-btn{
+    padding: 15px 30px;
+    padding-left: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color:white;
+}
+.container-btn:hover{
+    background-color: rgb(202, 39, 39);
+}
+
+.container{
     color:white;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 700px;
+    width:1200px;
+    margin:5px auto;
 }
-.container-3{
-    color:white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 700px;
+.container h1{
+    font-size: 48px;
 }
-.container-4{
-    color:white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 700px;
+.container p{
+    font-size: 24px;
 }
-.container-5{
+
+.containerFAQ{
     color:white;
     text-align: center;
-
+    width:1200px;
+    margin: 5px auto;
+}
+.FAQ-heading{
+    font-size: 48px;
 }
 .container-5-q{
-    background-color: grey;
+    background-color: rgb(69, 59, 59);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:500px;
+    width:1000px;
     margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
+    padding: 20px;
 }
+.container-5-q:hover{
+    background-color: rgb(33, 29, 29) ;
+}
+.container-5-q a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.email-text{
+    font-size: 16px;
+    color:white;
+    background-color: rgb(39, 35, 35);
+    padding:10px 100px;
+    border:1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.email-btn{
+    padding: 12px 20px;
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
